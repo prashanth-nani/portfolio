@@ -1,0 +1,5 @@
+*.yml
+.next
+build
+coverage
+pnpm-lock.yaml

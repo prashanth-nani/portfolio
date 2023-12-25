@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #0A192F;
+  padding: 50px;
+  min-height: calc(100vh - 100px);
+  color: #64ffda;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App .picture {
+  display: flex;
+  justify-content: center;
+}
+
+.App .picture .picture-wrapper {
+  border: 2px solid #64ffda;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.App .picture .picture-wrapper img {
+  height: 150px;
+  width: 150px;
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+  border-radius: 50%;
+
+  &:hover {
+      filter: none;
+  }
+}
+
+.App .intro {
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 5vw;
+}
+
+.App .intro .greet {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.App .intro .name {
+  color: #E6F1FF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: calc(8px + 8vmin);
+}
+
+.App .intro .what-i-do {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: calc(8px + 8vmin);
+  color: #8892B0;
+}
+
+.App .intro .description {
+  color: #8892B0;
+  padding-top: 30px;
+  max-width: 500px;
+}
